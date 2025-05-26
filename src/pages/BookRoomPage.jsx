@@ -172,7 +172,8 @@ function BookRoomPage() {
                         <Typography variant="h6" gutterBottom>
                             Guest Names
                         </Typography>
-                        {/* <Button onClick={()=>console.log(guestNames)}>gustName</Button>
+                        {/* <Button onCl
+                        in thiick={()=>console.log(guestNames)}>gustName</Button>
                         <Button onClick={()=>console.log(location.state)}>form data</Button> */}
                         {guestNames.map((name, index) => (
                             <Stack direction="row" spacing={2} key={index}>
